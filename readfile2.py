@@ -5,6 +5,6 @@ f = open('poem.txt', "r")
 #The variable "lines" is the list containing all lines
 
 #lines = f.readline()
-print f.readlines()
+print f.read()
 #Close the file after reading the lines.
 f.close()
